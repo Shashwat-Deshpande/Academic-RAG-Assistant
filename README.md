@@ -21,3 +21,17 @@ Follow these steps to run the assistant locally on your machine:
 ```bash
 git clone [https://github.com/Shashwat-Deshpande/Academic-RAG-Assistant.git](https://github.com/Shashwat-Deshpande/Academic-RAG-Assistant.git)
 cd Academic-RAG-Assistant
+
+# Create the environment
+python -m venv venv
+
+# Activate it (Windows)
+.\venv\Scripts\activate
+
+# Activate it (Mac/Linux)
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+# To launch the Streamlit interface
+streamlit run app.py
